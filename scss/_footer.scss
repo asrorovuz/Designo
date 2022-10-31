@@ -1,0 +1,114 @@
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 67px;
+
+    .logo__brand{
+        cursor: pointer;
+        a{
+            display: flex;
+            align-items: center;
+            column-gap: 18px;
+            text-decoration: none;
+
+            .logo__img{
+                display: flex;
+                align-items: center;
+            }
+
+            span{
+                font-family: var(--Spartan);
+                font-weight: 700;
+                font-size: 24px;
+                letter-spacing: 5px;
+                color: #000000;
+                text-transform: uppercase;
+            }
+        }
+    }
+    nav{
+        display: flex;
+        column-gap: 42px;
+
+        .link__page{
+            
+            a{
+                font-weight: 400;
+                font-size: 14px;
+                letter-spacing: 2px;
+                color: #333136;
+                text-decoration: none;
+                transition: .2s;
+
+                &:hover{
+                    color: var(--orange);
+                    border-bottom: 1px solid var(--orange);
+                }
+            }
+        }
+    }
+}
+
+footer{
+    .footer__contact{
+        background-color: #000000;
+        padding: 144px 0 72px 0;
+        position: relative;
+
+        .logo{
+            border-bottom: 1px solid #ffffff;
+            padding-bottom: 43px;
+            margin-bottom: 31px;
+
+            a{
+                cursor: pointer;
+                color: #ffffff;
+
+                span{
+                    color: #ffffff;
+                }
+            }
+        }
+
+        .contact{
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+
+            .text{
+                display: flex;
+                column-gap: 30px;
+
+                .address{
+                    width: 200px;
+                    color: #ffffff;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 26px;
+                    opacity: 0.5;
+                    address{
+                        font-style: normal;
+                    }
+                }
+            }
+
+            .icon{
+                display: flex;
+                column-gap: 16px;
+
+                a{
+                    text-decoration: none;
+                    align-self: flex-end;
+
+                    &:hover{
+                        img{
+                            width: 125%;
+                        }
+                        
+                    }
+                }
+            }
+        }
+    }
+}

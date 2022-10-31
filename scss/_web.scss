@@ -1,0 +1,23 @@
+main{
+    .title{
+        .title__background{
+                background: url('../img/main-img/bg-pattern-intro-web.svg') no-repeat;
+                background-position: center right;
+        }
+    }
+
+    .projects{
+        .link__project{
+            &:first-child{
+                article{
+                    background: url('../img/projects/image-app-design.jpg');
+                }
+            }
+            &:last-child{
+                article{
+                    background: url('../img/projects/image-graphic-design.jpg');
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+main{
+    .title__footer{
+        position: relative;
+        z-index: 111;
+        margin-bottom: -72px;
+
+        .title__background{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: url('../img/main-img/bg-pattern-intro-web.svg');
+            background-position: center right;
+            background-repeat: no-repeat;
+            padding: 72px 95px;
+        
+            .title__content{  
+                color: #FFFFFF;
+                text-align: start;
+        
+                h2{
+                    font-size: 40px;
+                    width: 268px;
+                }
+                p{
+                    width: 459px;
+                }
+            }
+        }
+    }
+}

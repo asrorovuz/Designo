@@ -1,0 +1,24 @@
+.banner{
+    margin-bottom: -320px;
+
+    .banner__content{
+        background: url('../img/main-img/banner.jpg') no-repeat;
+        padding: 145px 95px;
+
+        h1{
+            margin-bottom: 11px;
+            width: 540px;
+            font-weight: 500;
+            font-size: 48px;
+            color: #FFFFFF;
+        }
+        p{
+            margin-bottom: 40px;
+            width: 445px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            color: #FFFFFF;
+        }
+    }
+}

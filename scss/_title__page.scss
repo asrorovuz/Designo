@@ -1,0 +1,32 @@
+.title{
+    background-color: var(--orange);
+    border-radius: 15px;
+    overflow: hidden;
+
+    .title__background{
+            background-size: cover;
+            background-repeat: no-repeat;
+            padding: 64px 190px;
+
+        .title__content{
+            color: #FFFFFF;
+            text-align: center;
+    
+            h1,h2{
+                font-weight: 500;
+                font-size: 48px;
+                margin-bottom: 24px;
+            }
+    
+            h2{
+                font-size: 40px;
+            }
+    
+            p{
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+            }
+        }
+    }
+}

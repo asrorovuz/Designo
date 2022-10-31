@@ -1,0 +1,96 @@
+main{
+    .about__banner{
+        overflow: hidden;
+        background: #E7816B;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 160px;
+
+        .banner__info{
+            padding: 135px 87px 135px 95px;
+            background: url('../img/icon/bg-pattern-hero-about-desktop.svg') bottom/cover no-repeat;
+
+            h1, h2{
+                font-weight: 500;
+                font-size: 48px;
+                color: #FFFFFF;
+                margin-bottom: 24px;
+            }
+
+            h2{
+                color: var(--orange);
+            }
+
+            p{
+                width: 458px;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                color: #FFFFFF;
+            }
+        }
+
+        .banner__img{
+            img{
+                width: 100%; 
+                display: block;
+            }
+        }   
+        
+        form{
+            input,textarea{
+                color: #ffffff;
+                outline: none;
+                width: 380px;
+                border: none;
+                background: none;
+                padding: 11px;
+                font-size: 16px;
+                border-bottom: 1px solid #ffffff;
+                margin-bottom: 24px;
+
+                &::placeholder{
+                    font-weight: 500;
+                    font-size: 15px;
+                    color: #FFFFFF;
+                    opacity: 0.5;
+                }
+            }
+
+            .btns{
+                padding: 17px 48px;
+                float: right;
+            }
+        }
+    }
+
+    .row{
+        flex-direction: row-reverse;
+        background: var(--light-pink);
+
+        .banner__info{
+            padding: 134px 95px;
+            background: none;
+
+            p{
+                color: var(--gray);
+                
+                &:not(:last-child){
+                    margin-bottom: 24px;
+                }
+            }
+        }
+
+        &:last-child{
+            flex-direction: row;
+        }
+    }
+
+    .info__projects{
+        column-gap: 178px;
+        justify-content: center;
+        margin-bottom: 160px;
+    }
+}

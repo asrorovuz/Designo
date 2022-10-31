@@ -1,0 +1,126 @@
+main .about__banner {
+  overflow: hidden;
+  background: #E7816B;
+  border-radius: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 160px;
+}
+main .about__banner .banner__info {
+  padding: 135px 87px 135px 95px;
+  background: url("../img/icon/bg-pattern-hero-about-desktop.svg") bottom/cover no-repeat;
+}
+main .about__banner .banner__info h1, main .about__banner .banner__info h2 {
+  font-weight: 500;
+  font-size: 48px;
+  color: #FFFFFF;
+  margin-bottom: 24px;
+}
+main .about__banner .banner__info h2 {
+  color: var(--orange);
+}
+main .about__banner .banner__info p {
+  width: 458px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+main .about__banner .banner__img img {
+  width: 100%;
+  display: block;
+}
+main .about__banner form input, main .about__banner form textarea {
+  color: #ffffff;
+  outline: none;
+  width: 380px;
+  border: none;
+  background: none;
+  padding: 11px;
+  font-size: 16px;
+  border-bottom: 1px solid #ffffff;
+  margin-bottom: 24px;
+}
+main .about__banner form input::-webkit-input-placeholder, main .about__banner form textarea::-webkit-input-placeholder {
+  font-weight: 500;
+  font-size: 15px;
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+main .about__banner form input::-moz-placeholder, main .about__banner form textarea::-moz-placeholder {
+  font-weight: 500;
+  font-size: 15px;
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+main .about__banner form input:-ms-input-placeholder, main .about__banner form textarea:-ms-input-placeholder {
+  font-weight: 500;
+  font-size: 15px;
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+main .about__banner form input::-ms-input-placeholder, main .about__banner form textarea::-ms-input-placeholder {
+  font-weight: 500;
+  font-size: 15px;
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+main .about__banner form input::placeholder, main .about__banner form textarea::placeholder {
+  font-weight: 500;
+  font-size: 15px;
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+main .about__banner form .btns {
+  padding: 17px 48px;
+  float: right;
+}
+main .row {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  background: var(--light-pink);
+}
+main .row .banner__info {
+  padding: 134px 95px;
+  background: none;
+}
+main .row .banner__info p {
+  color: var(--gray);
+}
+main .row .banner__info p:not(:last-child) {
+  margin-bottom: 24px;
+}
+main .row:last-child {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+main .info__projects {
+  -webkit-column-gap: 178px;
+     -moz-column-gap: 178px;
+          column-gap: 178px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 160px;
+}
+
+main .tback__block {
+  margin-top: -297px;
+}
+main .about__banner .banner__info {
+  padding: 111px 87px 135px 95px;
+}
+main .about__banner .banner__info p {
+  width: 458px;
+}/*# sourceMappingURL=about.css.map */

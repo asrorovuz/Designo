@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,700;1,500&family=League+Spartan:wght@700&display=swap');
+
+:root{
+    // color
+    --orange: #E7816B ;
+    --light-orange: #FFAD9B;
+    --light-pink: #FDF3F0;
+    --gray: #333136;
+    --lihgt-gray: #F1F3F5;
+
+    // language
+    --Jost: 'Jost', sans-serif;
+    --Spartan: 'League Spartan', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--Jost);
+}
+
+header{
+    padding-top: 64px;
+}
+
+.container{
+    width: 1112px;
+    margin: 0 auto;
+}
+
+
+.btns{
+    width: max-content;
+    padding: 16px 24px;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    &:hover{
+        transform: scale(1.05);
+    }
+}
+
+.mr{
+    margin: 0 auto;
+}
+
+.btn__light{
+    color: var(--gray);
+    background-color: #ffffff;
+}
+
+.btn__orange{
+    color: #ffffff;
+    background-color: var(--orange);
+}
+
+.tback__block, .bback__block{
+    position: relative;
+    z-index: -11;
+    margin-top: -139px;
+    margin-bottom: -100px;
+    background: var(--lihgt-gray);
+    opacity: 0.5;
+    width: 1006px;
+    height: 494px;
+    border-radius: 297px 297px 297px 0px;
+}
+
+.bback__block{
+    margin-top: -287px;
+    margin-bottom: -200px;
+    border-radius: 347px 0px 347px 347px;
+    float: right;
+}
